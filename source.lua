@@ -122,7 +122,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Button of hitbox expander",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RectangularObject/Roblox-Hitbox-Expander/main/HitboxExtenderv2.lua",true))()
