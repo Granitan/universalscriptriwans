@@ -100,3 +100,24 @@ local Input = MainTab:CreateInput({
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "ify",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "betterbypasser",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "hub for blade ball or therapy",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/SynergyHub/loader.lua", true))()
+   end,
+})
